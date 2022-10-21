@@ -1,8 +1,8 @@
 
 
 body{
-    /* background-color:#EEEBDD;  */
-    background-image: "https://images7.alphacoders.com/108/1089110.jpg";
+    /* background-color:#d6b72d;  */
+    background-image : url(https://images7.alphacoders.com/108/1089110.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -13,7 +13,7 @@ body{
 .title-paragraph{
     text-align: right ;
     font-size: 55px;
-    color: #630000;
+    color: #000000;
     margin-top: 0%;
     margin-bottom: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif ;
@@ -24,8 +24,9 @@ body{
 .passive-title{
     padding: 5px;
     text-align: center;
-    color: #630000;
+    color: #050505;
     font-size: 20px;
+    -webkit-text-stroke-width: 0.9px;
 }
 
 .span-passivetitle{
@@ -62,10 +63,10 @@ body{
     margin-left : 850px;
     margin-right : 0px;
     padding : 0;
-    height: 160px;
-    background-color:#D8B6A4 ;
+    height: 500%;
+    background-color:#d8b6a4de  ;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #C7BEA2;
+    /* box-shadow: 10px 10px 5px #C7BEA2; */
 }
 
 .login-division{
@@ -73,10 +74,10 @@ body{
     margin-right : 0px;
     padding : 0;
     margin-top: 20px;
-    height: 100px;
-    background-color:#D8B6A4 ;
+    height: 90px;
+    background-color:#d8b6a4de ;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px #C7BEA2;
+    /* box-shadow: 10px 10px 5px #C7BEA2; */
     text-align: center;
 }
 
@@ -111,7 +112,7 @@ body{
 
 .nav-bar{
     display : block;
-    background-color: #D8B6A4;
+    background-color: #d8b6a49f;
     margin : 0px;
     padding : 6px;
     border-radius: 5px;
@@ -136,11 +137,13 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(5, 5, 5);
     text-align: center;
     padding: 16px;
     text-decoration: none;
     margin-left: 20px;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.9px;
   }
   
   li a:hover {
