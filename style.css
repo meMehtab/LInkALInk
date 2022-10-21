@@ -22,11 +22,12 @@ body{
 }
 
 .passive-title{
-    padding: 5px;
+    padding: 60px;
     text-align: center;
     color: #050505;
     font-size: 20px;
     -webkit-text-stroke-width: 0.9px;
+    margin-bottom: 0px;
 }
 
 .span-passivetitle{
@@ -54,22 +55,25 @@ body{
     margin-right: auto;
     display: block;
     background-color:#EEEBDD;
-    border-color:#630000;
+    border-color:#d8b6a4de;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgb(73, 71, 71)
+    box-shadow: 2px 2px 2px rgb(73, 71, 71);
+    height:25px;
+    width: 200px;
 }
 
 .main-division{
-    margin-left : 850px;
-    margin-right : 0px;
+    margin-left : auto;
+    margin-right : 200px;
     padding : 0;
-    height: 500%;
+    height: 400px;
+    width : 400px;
     background-color:#d8b6a4de  ;
     border-radius: 10px;
     /* box-shadow: 10px 10px 5px #C7BEA2; */
 }
 
-.login-division{
+.signup-division{
     margin-left : 850px;
     margin-right : 0px;
     padding : 0;
@@ -97,13 +101,16 @@ body{
     ;
 }
 
-.addBtn{
+.addBtn{    
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     background-color: #EEEBDD;
     box-shadow: 2px 2px 2px rgb(73, 71, 71);
     border-radius: 5px;
+    height: 30px;
+    width: 120px;
 }
 
 .addBtn:hover{
